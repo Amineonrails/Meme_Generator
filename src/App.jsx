@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <div>
+      <div className='memeContainer'>
         <img src={meme} alt="meme" className='memeImage' />
         <button onClick={() => { getMeme() }}>Generate a meme</button>
       </div>

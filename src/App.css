@@ -43,3 +43,8 @@
   height: 400px;
   width: 400px;
 }
+.memeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
